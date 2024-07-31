@@ -1,17 +1,31 @@
 .contacts-card {
   // .contacts-card__wrapper
   &__wrapper {
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 16px;
   }
 
   // .contacts-card__title
   &__title {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #101B15CC;
   }
 
   // .contacts-card__text
   &__text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #101B15;
   }
 
   // .contacts-card__media
   &__media {
+    display: flex;
+    gap: 14px;
   }
 }

@@ -1,10 +1,13 @@
 .contacts {
   // .contacts__container
   &__container {
+    padding: 0 40px;
   }
 
   // .contacts__title-wrapper
   &__title-wrapper {
+    max-width: 917px;
+    margin-bottom: 40px;
   }
 
   // .contacts__title
@@ -13,6 +16,9 @@
 
   // .contacts__wrapper
   &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
   }
 
   // .contacts__map
