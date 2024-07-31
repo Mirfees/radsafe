@@ -1,21 +1,57 @@
 .guarantee-card {
+  height: 100%;
   // .guarantee-card__wrapper
   &__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    padding: 20px;
+    border-radius: 16px;
+    height: 100%;
   }
 
   // .guarantee-card__number
   &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #381CB9;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 62px;
+    width: 46px;
+    height: 46px;
   }
 
   // .guarantee-card__title
   &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 12px;
+    margin-top: auto;
   }
 
   // .guarantee-card__text
   &__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #101B15CC;
   }
 
   // .guarantee-card__image-wrapper
   &__image-wrapper {
+    height: 100%;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      border-radius: 16px;
+    }
   }
 }

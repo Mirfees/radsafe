@@ -1,0 +1,45 @@
+.clients {
+  // .clients__container
+  &__container {
+    padding: 0 40px;
+  }
+
+  // .clients__title-wrapper
+  &__title-wrapper {
+    margin-bottom: 40px;
+  }
+
+  // .clients__title
+  &__title {
+  }
+
+  // .clients__wrapper
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  // .clients__card-image-wrapper
+  &__card-image-wrapper {
+    img {
+      max-width: 164px;
+    }
+  }
+
+  // .clients__card
+  &__card {
+  }
+
+  // .clients__card-wrapper
+  &__card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 46px 0;
+    background-color: #F9F9F9;
+    border-radius: 16px;
+
+  }
+}

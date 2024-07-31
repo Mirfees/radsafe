@@ -1,0 +1,26 @@
+.reputation-card {
+  // .reputation-card__wrapper
+  &__wrapper {
+  }
+
+  // .reputation-card__title
+  &__title {
+    margin-bottom: 12px;
+
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+
+    span {
+      color: #381cb9;
+    }
+  }
+
+  // .reputation-card__text
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #101B15CC;
+  }
+}

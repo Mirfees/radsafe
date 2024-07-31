@@ -1,0 +1,59 @@
+.feedback {
+  // .feedback__container
+  &__container {
+    padding: 60px 40px;
+    background: linear-gradient(97.72deg, #231857 25.84%, #3712E7 129.43%);
+    border-radius: 30px;
+    color: #fff;
+  }
+
+  // .feedback__title-wrapper
+  &__title-wrapper {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  // .feedback__title
+  &__title {
+    max-width: 380px;
+    margin-right: auto;
+    span {
+      color: #E9E61F;
+    }
+  }
+
+  // .feedback__text
+  &__text {
+    color: #FFFFFFCC;
+    max-width: 762px;
+  }
+
+  // .feedback__form
+  &__form {
+  }
+
+  // .feedback__form-wrapper
+  &__form-wrapper {
+  }
+
+  // .feedback__inputs
+  &__inputs {
+  }
+
+  // .feedback__submit
+  &__submit {
+  }
+
+  // .feedback__button
+  &__button {
+    background-color: #fff;
+    color: #381CB9;
+    border: 1px solid #FFFFFF80;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background-color: rgba(0,0,0,0);
+    }
+  }
+}

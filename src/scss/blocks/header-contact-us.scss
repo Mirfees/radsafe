@@ -1,4 +1,7 @@
 .header-contact-us {
-  &__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  &__image-wrapper {
   }
 }

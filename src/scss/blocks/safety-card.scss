@@ -1,0 +1,27 @@
+.safety-card {
+  // .safety-card__image-wrapper
+  &__image-wrapper {
+    margin-bottom: 16px;
+
+    img {
+      border-radius: 16px;
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  // .safety-card__title
+  &__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+
+  }
+
+  // .safety-card__text
+  &__text {
+    color: #101B15CC;
+  }
+}

@@ -1,21 +1,36 @@
 .guarantee {
   // .guarantee__container
   &__container {
+    padding: 0 40px;
   }
 
   // .guarantee__title-wrapper
   &__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
   }
 
   // .guarantee__title
   &__title {
   }
 
+  // .guarantee__button-wrapper
+  &__button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
   // .guarantee__button
   &__button {
+    width: 190px;
   }
 
   // .guarantee__wrapper
   &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
   }
 }
