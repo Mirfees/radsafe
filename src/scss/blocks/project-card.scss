@@ -1,0 +1,40 @@
+.project-card {
+  // .project-card__wrapper
+  &__wrapper {
+  }
+
+  // .project-card__image-wrapper
+  &__image-wrapper {
+    margin-bottom: 16px;
+
+    img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 16px;
+    }
+  }
+
+  // .project-card__text-wrapper
+  &__text-wrapper {
+  }
+
+  // .project-card__title
+  &__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%
+  }
+
+  // .project-card__text
+  &__text {
+    color: #101B15CC;
+    font-size: 14px;
+    font-weight: 400;
+
+    p {
+      line-height: 140%;
+    }
+  }
+}

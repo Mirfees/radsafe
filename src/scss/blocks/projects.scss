@@ -1,0 +1,16 @@
+.projects {
+  // .projects__container
+  &__container {
+    padding: 0 40px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px 20px;
+  }
+
+  &__pagination {
+
+  }
+}

@@ -1,5 +1,5 @@
 .header {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   // .header__container
   &__container {
     color: #fff;
@@ -99,6 +99,15 @@
     display: flex;
     justify-content: space-between;
     gap: 16px;
+  }
+
+  // .header__page-title-wrapper
+
+  &__page-title-wrapper {
+    .header__title {
+      font-size: 44px;
+      font-weight: 600;
+    }
   }
 
   // .header__advantages-item

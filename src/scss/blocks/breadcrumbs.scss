@@ -1,0 +1,49 @@
+
+
+.breadcrumbs {
+  &__container {
+    padding: 20px 0;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+  }
+
+  &__list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  &__list-item {
+    position: relative;
+  }
+
+  &__list-item:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  &__list-item:not(:last-child)::before {
+    position: absolute;
+    content: url("../img/breadcrumbs-separator.svg");
+    width: 9px;
+    height: 5px;
+    transform: translateY(-50%);
+    right: -22px;
+  }
+
+  &__list-link {
+    transition: 0.2s ease-in-out;
+    white-space: nowrap;
+  }
+
+  &__list-link:hover {
+    color: #E9E61F;
+  }
+
+  &__list-link.active {
+    color: #E9E61F;
+    pointer-events: none;
+  }
+}
