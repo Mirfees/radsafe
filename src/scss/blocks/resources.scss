@@ -1,0 +1,26 @@
+.resources {
+  // .resources__container
+  &__container {
+    padding: 0 40px;
+  }
+
+  // .resources__lab-grid
+  &__lab-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin-bottom: 100px;
+  }
+
+  // .resources__title
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 40px;
+  }
+
+  // .resources__groups-list
+  &__groups-list {
+  }
+}

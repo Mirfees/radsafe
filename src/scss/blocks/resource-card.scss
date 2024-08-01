@@ -1,0 +1,41 @@
+.resource-card {
+  // .resource-card__wrapper
+  &__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 356px;
+    border-radius: 16px;
+    overflow: hidden;
+
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  // .resource-card__title
+  &__title {
+    max-width: 289px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+
+  &__image-wrapper {
+    position: absolute;
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transition: transform linear 0.2s;
+    }
+  }
+}
