@@ -1,0 +1,33 @@
+.page-inner {
+  // .page-inner__container
+  &__container {
+    padding: 0 40px;
+  }
+
+  // .page-inner__text-wrapper
+  &__text-wrapper {
+    max-width: 985px;
+  }
+
+  // .page-inner__slider
+  &__slider-wrapper {
+    position: relative;
+
+    .swiper-button-next {
+      right: -15px;
+    }
+
+    .swiper-button-prev {
+      left: -15px;
+    }
+
+    .swiper-button-disabled {
+      display: none;
+    }
+
+  }
+
+  // .page-inner__slider
+  &__slider {
+  }
+}

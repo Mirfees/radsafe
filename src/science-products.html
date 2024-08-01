@@ -1,0 +1,59 @@
+@@include('templates/head.html", {
+"title":"science product",
+"lang":"ru"
+})
+<body>
+@@include('templates/header-page.html')
+
+<main>
+    <section class="science-products">
+        <div class="container">
+            <div class="science-products__container">
+                <div class="science-products__cards">
+                    <div class="science-product-card">
+                        .science-pro
+                    </div>
+                </div>
+                <div class="science-products__pagination">
+                    @@include("templates/pagination.html")
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__container">
+                <div class="feedback__title-wrapper title-wrapper">
+                    <h2 class="feedback__title">
+                        Оставьте заявку <span>на консультацию</span>
+                    </h2>
+                    <p class="feedback__text">
+                        Заполните форму ниже, чтобы получить бесплатную консультацию от наших экспертов по вопросам радиационной безопасности. Мы свяжемся с вами в кратчайшие сроки для обсуждения ваших потребностей и предложения наших решений
+                    </p>
+                </div>
+                <form action="" class="feedback__form">
+                    <div class="feedback__form-wrapper">
+                        <div class="feedback__inputs">
+                            <div class="feedback__inputs-row">
+                                <input type="text" name="" placeholder="Ваше имя">
+                                <input type="text" name="" placeholder="Ваш телефон">
+                                <input type="text" name="" placeholder="Ваша почта">
+                            </div>
+
+                            <textarea name="" placeholder="Сообщение" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="feedback__submit">
+                            <button class="feedback__button button" type="submit">Отправить</button>
+                            <span>Нажимая кнопку “Отправить” вы даёте согласие на обработку <a href="#">персональных данных</a></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+@@include("templates/footer.html")
+@@include("templates/scripts.html")
+</body>
+</html>

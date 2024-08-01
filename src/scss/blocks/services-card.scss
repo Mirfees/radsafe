@@ -1,6 +1,6 @@
-.guarantee-card {
+.services-card {
   height: 100%;
-  // .guarantee-card__wrapper
+  // .services-card__wrapper
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     height: 100%;
   }
 
-  // .guarantee-card__number
+  // .services-card__number
   &__number {
     display: flex;
     justify-content: center;
@@ -26,16 +26,15 @@
     height: 46px;
   }
 
-  // .guarantee-card__title
+  // .services-card__title
   &__title {
     font-size: 18px;
     font-weight: 600;
     line-height: 130%;
     margin-bottom: 12px;
-    margin-top: auto;
   }
 
-  // .guarantee-card__text
+  // .services-card__text
   &__text {
     font-size: 14px;
     font-weight: 400;
@@ -43,7 +42,7 @@
     color: #101B15CC;
   }
 
-  // .guarantee-card__image-wrapper
+  // .services-card__image-wrapper
   &__image-wrapper {
     height: 100%;
 

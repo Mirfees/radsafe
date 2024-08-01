@@ -1,0 +1,40 @@
+.images-complicated-grid {
+  display: grid;
+  grid-template-areas:
+            "first first second second"
+            "first first second second"
+            "third fourth second second";
+  grid-gap: 20px;
+
+  // .images-complicated-grid__first
+  &__first {
+    grid-area: first;
+    height: 359px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  // .images-complicated-grid__second
+  &__second {
+    grid-area: second;
+    height: 607px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  // .images-complicated-grid__third
+  &__third {
+    grid-area: third;
+    height: 228px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  // .images-complicated-grid__fourth
+  &__fourth {
+    grid-area: fourth;
+    height: 228px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

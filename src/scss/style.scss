@@ -4,6 +4,8 @@
 
 @import "global";
 
+@import "mixins";
+
 @import "blocks/header";
 
 @import "blocks/breadcrumbs";
@@ -36,10 +38,20 @@
 
 @import "blocks/feedback";
 
-@import "blocks/guarantee";
+@import "blocks/services";
 
-@import "blocks/guarantee-card";
+@import "blocks/services-card";
 
 @import "blocks/projects";
 
 @import "blocks/project-card";
+
+@import "blocks/page-inner";
+
+@import "blocks/page-inner-card";
+
+@import "blocks/services-inner";
+
+@import "blocks/images-complicated-grid";
+
+@import "blocks/same-services";

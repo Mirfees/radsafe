@@ -1,27 +1,27 @@
-.reputation {
-  // .reputation__container
+.services-inner {
+  // .services-inner__container
   &__container {
     padding: 0 40px;
   }
 
-  // .reputation__title-wrapper
+  // .services-inner__title-wrapper
   &__title-wrapper {
     margin-bottom: 56px;
   }
 
-  // .reputation__title
+  // .services-inner__title
   &__title {
     margin-bottom: 40px;
     max-width: 915px;
   }
 
-  // .reputation__text-wrapper
+  // .services-inner__text-wrapper
   &__text-wrapper {
     display: flex;
     justify-content: space-between;
   }
 
-  // .reputation__text
+  // .services-inner__text
   &__text {
     &.hidden {
       height: 153px;
@@ -34,7 +34,7 @@
     max-width: 985px;
   }
 
-  // .reputation__button-wrapper
+  // .services-inner__button-wrapper
   &__button-wrapper {
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
     flex-grow: 1;
   }
 
-  // .reputation__button
+  // .services-inner__button
   &__button {
     position: relative;
     width: 292px;
@@ -65,41 +65,11 @@
     }
   }
 
-  // .reputation__more-button
+  // .services-inner__more-button
   &__more-button {
     color: #381CB9;
     font-size: 16px;
     font-weight: 600;
     line-height: 120%;
-  }
-
-  // .reputation__cards-wrapper
-  &__cards-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 26px;
-    margin-bottom: 50px;
-  }
-
-  // .reputation__image-wrapper
-  &__image-wrapper {
-    height: 359px;
-    width: 100%;
-
-    img {
-      height: 100%;
-    }
-  }
-
-  img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-  }
-
-  // .reputation__title-logo-wrapper
-  &__title-logo-wrapper {
-    display: flex;
-    justify-content: space-between;
   }
 }

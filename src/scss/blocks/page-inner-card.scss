@@ -1,0 +1,14 @@
+.page-inner-card {
+  // .page-inner-card__wrapper
+  &__wrapper {
+  }
+
+  // .page-inner-card__image-wrapper
+  &__image-wrapper {
+
+    img {
+      height: 428px;
+      border-radius: 16px;
+    }
+  }
+}

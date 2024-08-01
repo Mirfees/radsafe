@@ -10,4 +10,10 @@
       gap: 30px;
     }
   }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
