@@ -1,0 +1,25 @@
+.license-card {
+  // .license-card__wrapper
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #F5F4FA;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+  }
+
+  // .license-card__image-wrapper
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      cursor: pointer;
+      object-fit: cover;
+      max-width: 194px;
+      max-height: 161px;
+    }
+  }
+}

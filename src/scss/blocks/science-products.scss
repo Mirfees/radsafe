@@ -1,0 +1,17 @@
+.science-products {
+  // .science-products__container
+  &__container {
+    padding: 0 40px;
+  }
+
+  // .science-products__cards
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 16px;
+  }
+
+  // .science-products__pagination
+  &__pagination {
+  }
+}

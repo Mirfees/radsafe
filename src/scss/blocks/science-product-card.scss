@@ -1,0 +1,42 @@
+.science-product-card {
+  // .science-product-card__wrapper
+  &__wrapper {
+    height: 100%;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 16px;
+  }
+
+  // .science-product-card__image-wrapper
+  &__image-wrapper {
+    margin-bottom: 36px;
+
+    img {
+      object-fit: cover;
+      width: 122px;
+      height: 122px;
+      border-radius: 600px;
+    }
+  }
+
+  // .science-product-card__title
+  &__title {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  // .science-product-card__text
+  &__text {
+    margin-bottom: 12px;
+  }
+
+  // .science-product-card__more
+  &__more {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #381CB9;
+  }
+}

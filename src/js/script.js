@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // fancybox begin
+    Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+    });
+    //fancybox end
+
    // sliders begin
 
     const safetySlider = new Swiper('.safety__slider', {
