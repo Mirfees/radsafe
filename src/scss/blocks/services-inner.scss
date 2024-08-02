@@ -2,6 +2,14 @@
   // .services-inner__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .services-inner__title-wrapper
@@ -19,6 +27,11 @@
   &__text-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
+    @include xl {
+      flex-direction: column;
+    }
   }
 
   // .services-inner__text
@@ -41,6 +54,10 @@
     justify-content: end;
     align-items: center;
     flex-grow: 1;
+
+    @include xl {
+      align-items: start;
+    }
   }
 
   // .services-inner__button
@@ -53,6 +70,14 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 120%;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
 
     &:before {
       content: '';
@@ -71,5 +96,13 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 120%;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 }

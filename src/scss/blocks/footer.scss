@@ -15,7 +15,12 @@
   &__top {
     display: flex;
     padding-bottom: 80px;
-    border-bottom: 1px solid #101B1517
+    border-bottom: 1px solid #101B1517;
+
+    @include lg {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 
   // .footer__logos
@@ -34,6 +39,15 @@
     display: flex;
     margin-right: 100px;
     gap: 90px;
+
+    @include xl {
+      gap: 30px;
+      margin-right: 50px;
+    }
+
+    @include lg {
+      flex-direction: column;
+    }
   }
 
   // .footer__nav-list
@@ -79,6 +93,11 @@
     line-height: 120%;
     color: #101B1599;
     padding-top: 22px;
+
+    @include lg {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 
   // .footer__copyright
@@ -89,6 +108,10 @@
   // .footer__policy
   &__policy {
     margin-right: 509px;
+
+    @include xl {
+      margin-right: 340px;
+    }
   }
 
   // .footer__dev

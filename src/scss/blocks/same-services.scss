@@ -2,6 +2,14 @@
   // .same-services__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .same-services__slider-wrapper

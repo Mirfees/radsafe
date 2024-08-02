@@ -9,6 +9,11 @@
     img {
       height: 428px;
       border-radius: 16px;
+      object-fit: cover;
+
+      @include sm {
+        height: 330px;
+      }
     }
   }
 }

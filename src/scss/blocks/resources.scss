@@ -2,6 +2,14 @@
   // .resources__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .resources__lab-grid
@@ -10,6 +18,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 16px;
     margin-bottom: 100px;
+
+    @include xl {
+      grid-template-columns: auto;
+    }
   }
 
   // .resources__title

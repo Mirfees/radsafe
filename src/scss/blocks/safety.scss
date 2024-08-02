@@ -2,6 +2,14 @@
   // .safety__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .safety__title-wrapper
@@ -23,6 +31,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    gap: 20px;
+
+    @include lg {
+      flex-direction: column;
+    }
   }
 
   // .safety__button
@@ -35,6 +48,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include lg {
+      justify-content: start;
+    }
   }
 
   // .safety__slider-wrapper

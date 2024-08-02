@@ -11,6 +11,14 @@
     font-weight: 600;
     line-height: 120%;
 
+    @include lg {
+      font-size: 30px;
+    }
+
+    @include md {
+      font-size: 18px;
+    }
+
     span {
       color: #381cb9;
     }
@@ -22,5 +30,13 @@
     font-weight: 400;
     line-height: 120%;
     color: #101B15CC;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 }

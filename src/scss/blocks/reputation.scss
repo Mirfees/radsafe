@@ -2,6 +2,14 @@
   // .reputation__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .reputation__title-wrapper
@@ -19,12 +27,18 @@
   &__text-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
+    @include lg {
+      flex-direction: column;
+
+    }
   }
 
   // .reputation__text
   &__text {
     &.hidden {
-      height: 153px;
+      height: 150px;
     }
 
     .active {
@@ -32,6 +46,10 @@
     }
     overflow: hidden;
     max-width: 985px;
+
+    @include lg {
+      order: 2;
+    }
   }
 
   // .reputation__button-wrapper
@@ -41,6 +59,11 @@
     justify-content: end;
     align-items: center;
     flex-grow: 1;
+
+    @include lg {
+      align-items: start;
+      order: 1;
+    }
   }
 
   // .reputation__button
@@ -53,6 +76,18 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 120%;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
+
+    @include sm {
+      width: 100%;
+    }
 
     &:before {
       content: '';
@@ -71,6 +106,14 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 120%;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 
   // .reputation__cards-wrapper
@@ -79,6 +122,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 26px;
     margin-bottom: 50px;
+
+    @include sm {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   // .reputation__image-wrapper
@@ -97,9 +144,20 @@
     border-radius: 16px;
   }
 
+  .reputation__logo-wrapper {
+    width: 184px;
+    height: 161px;
+    margin-bottom: 20px;
+  }
+
   // .reputation__title-logo-wrapper
   &__title-logo-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
+    @include lg {
+      flex-direction: column;
+    }
   }
 }

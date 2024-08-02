@@ -6,12 +6,34 @@
             "third fourth second second";
   grid-gap: 20px;
 
+  @include md {
+    grid-template-areas:
+            "first first second second"
+            "third third fourth fourth";
+  }
+
+  @include sm {
+    grid-template-areas:
+            "first"
+            "second"
+            "third"
+            "fourth";
+  }
+
+  img {
+    border-radius: 16px;
+  }
+
   // .images-complicated-grid__first
   &__first {
     grid-area: first;
     height: 359px;
     width: 100%;
     object-fit: cover;
+
+    @include sm {
+      height: 228px;
+    }
   }
 
   // .images-complicated-grid__second
@@ -20,6 +42,14 @@
     height: 607px;
     width: 100%;
     object-fit: cover;
+
+    @include md {
+      height: 359px;
+    }
+
+    @include sm {
+      height: 228px;
+    }
   }
 
   // .images-complicated-grid__third
@@ -28,6 +58,14 @@
     height: 228px;
     width: 100%;
     object-fit: cover;
+
+    @include md {
+      height: 359px;
+    }
+
+    @include sm {
+      height: 228px;
+    }
   }
 
   // .images-complicated-grid__fourth
@@ -36,5 +74,13 @@
     height: 228px;
     width: 100%;
     object-fit: cover;
+
+    @include md {
+      height: 359px;
+    }
+
+    @include sm {
+      height: 228px;
+    }
   }
 }

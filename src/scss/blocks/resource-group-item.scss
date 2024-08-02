@@ -18,6 +18,14 @@
     display: flex;
     padding: 18px 0;
     border-bottom: 1px solid #DFDDE7;
+
+    @include xl {
+      gap: 20px;
+    }
+
+    @include sm {
+      flex-direction: column;
+    }
   }
 
   // .resources-group-item__name-wrapper
@@ -33,6 +41,14 @@
     font-weight: 400;
     line-height: 140%;
     color: #381CB9;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 
   // .resources-group-item__name
@@ -40,12 +56,24 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 140%;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
   }
 
   // .resources-group-item__desc
   &__desc {
     max-width: 762px;
     margin-right: 85px;
+
+    @include md {
+      margin-right: 0;
+    }
   }
 
   // .resources-group-item__link-button

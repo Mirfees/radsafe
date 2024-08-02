@@ -2,6 +2,14 @@
   // .science-products__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .science-products__cards
@@ -9,6 +17,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 16px;
+
+    @include lg {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include sm {
+      grid-template-columns: auto;
+    }
   }
 
   // .science-products__pagination

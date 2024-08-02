@@ -11,6 +11,11 @@
   &__title-wrapper {
     display: flex;
     margin-bottom: 40px;
+    gap: 20px;
+
+    @include sm {
+      flex-wrap: wrap;
+    }
   }
 
   // .feedback__title
@@ -52,6 +57,10 @@
     display: flex;
     gap: 10px;
 
+    @include md {
+      flex-wrap: wrap;
+    }
+
     input {
       flex-grow: 1;
     }
@@ -63,6 +72,10 @@
     gap: 30px;
     align-items: center;
     max-width: 607px;
+
+    @include sm {
+      flex-wrap: wrap;
+    }
 
     span {
       max-width: 319px;

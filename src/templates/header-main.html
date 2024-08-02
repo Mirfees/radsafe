@@ -8,41 +8,15 @@
                             <img src="img/logo.svg" alt="">
                         </a>
                     </div>
-                    <div class="header-menu">
-                        <nav class="header-menu__nav">
-                            <ul>
-                                <li><a href="">Главная</a></li>
-                                <li><a href="">О нас</a></li>
-                                <li class="dropdown-menu">Наука
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g id="Iconly/Sharp/Arrow - Down 2">
-                                            <path id="Stroke 50" d="M12.6663 5.66699L7.99968 10.3337L3.33301 5.66699" stroke="#828286" stroke-width="1.5" stroke-linecap="square"></path>
-                                        </g>
-                                    </svg>
-                                    <ul class="dropdown-menu__list">
-                                        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="/about">О клинике</a></li>
-                                        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="/specialists">Команда врачей</a></li>
-                                        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="/stocks">Акции</a></li>
-                                        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="/vacancies">Вакансии</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="">Услуги</a></li>
-                                <li><a href="">Лицензии</a></li>
-                                <li><a href="">Ресурсы компании</a></li>
-                                <li><a href="">Контакты</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header__lang">
-                            <div class="header__lang-item"><a href="#">Ру</a></div>
-                            <div class="header__lang-item"><a href="#">Kz</a></div>
-                            <div class="header__lang-item"><a href="#">En</a></div>
-                        </div>
-                    </div>
+                    @@include("header-menu.html")
                     <div class="header-contact-us">
                         <a href="#" class="header__upper-button button">Связаться с нами</a>
                         <div class="header-contact-us__image-wrapper">
                             <img src="img/science-foundation-logo.svg" alt="">
                         </div>
+                    </div>
+                    <div id="burger-menu">
+                        <span></span>
                     </div>
                 </div>
 

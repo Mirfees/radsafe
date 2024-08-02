@@ -4,6 +4,7 @@
     padding: 20px;
     background-color: #F9F9F9;
     border-radius: 16px;
+    height: 94px;
   }
 
   // .contacts-card__title
@@ -21,6 +22,18 @@
     font-weight: 600;
     line-height: 120%;
     color: #101B15;
+
+    @include xl {
+      font-size: 17px;
+    }
+
+    @include lg {
+      font-size: 16px;
+    }
+
+    @include md {
+      font-size: 15px;
+    }
   }
 
   // .contacts-card__media

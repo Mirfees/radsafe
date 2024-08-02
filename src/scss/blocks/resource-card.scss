@@ -1,4 +1,11 @@
 .resource-card {
+
+  @include xl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   // .resource-card__wrapper
   &__wrapper {
     position: relative;
@@ -9,6 +16,14 @@
     height: 356px;
     border-radius: 16px;
     overflow: hidden;
+
+    @include xl {
+      width: 430px;
+    }
+
+    @include sm {
+      width: 100%;
+    }
 
     &:hover {
       img {
@@ -33,6 +48,7 @@
     height: 100%;
 
     img {
+      object-fit: cover;
       height: 100%;
       width: 100%;
       transition: transform linear 0.2s;

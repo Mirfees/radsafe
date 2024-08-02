@@ -1,0 +1,23 @@
+@@include('templates/head.html", {
+"title":"404",
+"lang":"ru"
+})
+<body>
+@@include('templates/header-page.html')
+
+<main>
+    <section class="error-404">
+        <div class="container">
+            <div class="error-404__container">
+                <h1 class="error-404__title">404</h1>
+                <div class="error-404__subtitle">Страница не найдена</div>
+                <p>К сожалению, страница которую вы запрашиваете не существует. Проверьте URL адрес и попробуйте снова</p>
+                <a href="/" class="error-404__button button">На главную</a>
+            </div>
+        </div>
+    </section>
+</main>
+@@include("templates/footer.html")
+@@include("templates/scripts.html")
+</body>
+</html>

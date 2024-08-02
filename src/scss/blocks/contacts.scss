@@ -2,6 +2,14 @@
   // .contacts__container
   &__container {
     padding: 0 40px;
+
+    @include md {
+      padding: 0 30px;
+    }
+
+    @include sm {
+      padding: 0 20px;
+    }
   }
 
   // .contacts__title-wrapper
@@ -19,6 +27,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 30px;
+    gap: 16px;
+
+    @include xxl {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include md {
+      grid-template-columns: auto;
+    }
   }
 
   // .contacts__map

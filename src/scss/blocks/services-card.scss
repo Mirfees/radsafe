@@ -24,6 +24,14 @@
     margin-bottom: 62px;
     width: 46px;
     height: 46px;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
   }
 
   // .services-card__title
@@ -32,6 +40,14 @@
     font-weight: 600;
     line-height: 130%;
     margin-bottom: 12px;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
   }
 
   // .services-card__text

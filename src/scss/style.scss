@@ -2,9 +2,9 @@
 
 @import "fonts";
 
-@import "global";
-
 @import "mixins";
+
+@import "global";
 
 @import "blocks/header";
 
@@ -67,3 +67,7 @@
 @import "blocks/resources";
 
 @import "blocks/resource-group-item";
+
+@import "blocks/burger-menu";
+
+@import "blocks/error-404";

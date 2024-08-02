@@ -25,6 +25,14 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 140%;
+
+    @include lg {
+      font-size: 17px;
+    }
+
+    @include md {
+      font-size: 16px;
+    }
   }
 
   // .science-product-card__text
@@ -38,5 +46,13 @@
     font-weight: 600;
     line-height: 140%;
     color: #381CB9;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 }

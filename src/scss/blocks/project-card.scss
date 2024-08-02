@@ -24,7 +24,15 @@
     margin-bottom: 8px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 120%
+    line-height: 120%;
+
+    @include lg {
+      font-size: 14px;
+    }
+
+    @include md {
+      font-size: 13px;
+    }
   }
 
   // .project-card__text
